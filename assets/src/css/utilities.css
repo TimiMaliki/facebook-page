@@ -1,0 +1,37 @@
+.w-full{
+    width: 100%;
+}
+.h-full{
+    height: 80vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows:repeat(2,1fr) ;
+}
+.box1{
+    width: 450px;
+    height: 500px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 450px;
+    height: 500px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+}
+.m1{
+    margin: 50px;
+}
+.m2{
+    margin-top: 200px;
+}
+.m3{
+    margin-top: 60px;
+}
+.mleft{
+    margin-left: -30px;
+}
