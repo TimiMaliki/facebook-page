@@ -44,4 +44,10 @@ input{
     color: blue;
     font-size: 17px;
     margin: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+form p:hover{
+    border-bottom: 0.75px solid blue;
+    transition: all 0.5s ease-in;
 }
