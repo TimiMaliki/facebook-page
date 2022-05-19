@@ -39,3 +39,9 @@ input{
     margin: 10px;
     outline: 1px solid #F7f7f7;
 }
+.password{
+    text-align: center;
+    color: blue;
+    font-size: 17px;
+    margin: 7px;
+}
