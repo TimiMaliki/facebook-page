@@ -228,7 +228,7 @@ html {
     }
 }
 
-@media (max-width:350px) {
+@media (max-width:400px) {
     form {
         width: 340px;
         margin: 200px;
@@ -266,7 +266,7 @@ html {
 
 @media (max-width:330px) {
     form {
-        width: 310px;
+        width: 300px;
         margin: 200px;
         transform: translateX(-485px);
         align-items: center;
