@@ -264,7 +264,7 @@ html {
     }
 }
 
-@media (max-width:340px) {
+@media (max-width:330px) {
     form {
         width: 310px;
         margin: 200px;
