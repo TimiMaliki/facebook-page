@@ -1,35 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
-    height: 80vh;
     background: #f2f2f2;
 }
-.edit{
+
+.edit {
     margin: 10px 50px;
     font-weight: 600;
     font-size: 70px;
     color: rgb(43, 43, 238);
 }
-.edit2{
+
+.edit2 {
     margin: 10px 50px;
     font-size: 20px;
     font-weight: bold;
     color: #000;
 }
-form{
+
+form {
     margin: 30px;
     padding: 50px;
     width: 450px;
     height: 400px;
     background: #fff;
     border-radius: 9px;
-    box-shadow: 3px 2px 2px rgba(255,255,255,);
+    box-shadow: 3px 2px 2px rgba(255, 255, 255, );
 }
-input{
+
+input {
     width: 400px;
     height: 50px;
     border: 1px solid #f5f5f5;
@@ -38,7 +42,8 @@ input{
     margin: 10px;
     outline: 1px solid #F7f7f7;
 }
-.password{
+
+.password {
     text-align: center;
     color: blue;
     font-size: 17px;
@@ -46,7 +51,245 @@ input{
     cursor: pointer;
     transition: all 0.5s ease-in;
 }
-form p:hover{
+
+form p:hover {
     border-bottom: 0.75px solid blue;
     transition: all 0.5s ease-in;
+}
+.footer-container {
+    height: 50vh;
+    background: #fff;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+@-o-viewport {
+    width: 100%;
+}
+
+@-ms-viewport {
+    width: 100%;
+}
+
+@viewport {
+    width: 100%;
+}
+
+html {
+    overflow-y: auto;
+}
+
+@media (max-width:1400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100vh;
+    }
+}
+
+@media (max-width:900px) {
+    form {
+        width: 350px;
+        height: 400px;
+    }
+
+    input {
+        width: 300px;
+        height: 50px;
+    }
+
+    form .btn {
+        width: 200px;
+        height: 40px;
+        transform: translateX(50px);
+    }
+
+    .bold {
+        transform: translateX(-100px);
+        font-size: 25px;
+    }
+
+    .bold b {
+        font-size: 25px;
+    }
+
+    .btn2 {
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        transform: translateX(-60px);
+    }
+}
+
+@media (max-width:800px) {
+    form {
+        transform: translateX(-80px);
+    }
+
+    .bold {
+        transform: translateX(-100px);
+        font-size: 25px;
+    }
+
+    .bold b {
+        font-size: 25px;
+    }
+    .footer-container{
+        height: 60vh;
+    }
+    .footer-text {
+        display:grid;
+        grid-template-columns: repeat(6,6fr);
+    }
+    footer .footer{
+        display:grid;
+        grid-template-columns: repeat(3,3fr);
+    }
+}
+
+@media (max-width:600px) {
+    .facebook {
+        transform: translateY(-80px);
+    }
+
+    .edit,
+    .edit2 {
+        align-items: center;
+        text-align: center;
+       transform: translateX(30px);
+    }
+
+    form {
+        margin: 200px;
+        transform: translateX(-380px);
+        align-items: center;
+    }
+
+    .bold {
+        top: -30%;
+        transform: translateX(-380px);
+        position: relative;
+    }
+    .footer-text {
+        display:grid;
+        grid-template-columns: repeat(5,5fr);
+    }
+    footer .footer{
+        display:grid;
+        grid-template-columns: repeat(5,5fr);
+    }
+}
+
+@media (max-width:400px) {
+    form {
+        width: 370px;
+        margin: 200px;
+        transform: translateX(-485px);
+        align-items: center;
+    }
+    .bold {
+        top: -30%;
+        transform: translateX(-580px);
+        position: relative;
+    }
+    .edit,
+    .edit2 {
+        align-items: center;
+        text-align: center;
+       transform: translateX(-70px);
+    }
+    input {
+        width: 350px;
+        height: 50px;
+        transform: translateX(-10px);
+    }
+    .footer-container{
+        height: 60vh;
+    }
+    .footer-text {
+        display:grid;
+        grid-template-columns: repeat(5,5fr);
+    }
+    footer .footer{
+        display:grid;
+        grid-template-columns: repeat(3,3fr);
+    }
+}
+
+@media (max-width:350px) {
+    form {
+        width: 340px;
+        margin: 200px;
+        transform: translateX(-485px);
+        align-items: center;
+    }
+    .bold {
+        top: -30%;
+        transform: translateX(-580px);
+        position: relative;
+    }
+    .edit,
+    .edit2 {
+        align-items: center;
+        text-align: center;
+       transform: translateX(-70px);
+    }
+    input {
+        width: 300px;
+        height: 50px;
+        transform: translateX(-10px);
+    }
+    .footer-container{
+        height: 60vh;
+    }
+    .footer-text {
+        display:grid;
+        grid-template-columns: repeat(3,3fr);
+    }
+    footer .footer{
+        display:grid;
+        grid-template-columns: repeat(3,3fr);
+    }
+}
+
+@media (max-width:340px) {
+    form {
+        width: 310px;
+        margin: 200px;
+        transform: translateX(-485px);
+        align-items: center;
+    }
+    input {
+        width: 280px;
+        height: 50px;
+        transform: translateX(-10px);
+    }
+    form .btn {
+        width: 200px;
+        height: 40px;
+       margin-left: -50px;
+    }
+    .footer-container{
+        height: 50vh;
+    }
+    .footer-text {
+        display:grid;
+        grid-template-columns: repeat(5,5fr);
+    }
+    footer .footer{
+        display:grid;
+        grid-template-columns: repeat(3,3fr);
+    }
 }
