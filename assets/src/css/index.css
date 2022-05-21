@@ -346,6 +346,7 @@ html {
         transform: translateX(-580px);
         position: relative;
        font-size: 10px;
+       padding: 37px;
     }
 }
 @media (max-width:250px) {
@@ -383,7 +384,7 @@ html {
         grid-template-columns: repeat(4,4fr);
     }
     .bold {
-        top: -35%;
+        top: -40%;
         transform: translateX(-580px);
         position: relative;
        font-size: 10px;
