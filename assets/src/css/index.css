@@ -192,7 +192,7 @@ html {
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     form {
         width: 370px;
         margin: 200px;
@@ -228,7 +228,7 @@ html {
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:420px) {
     form {
         width: 340px;
         margin: 200px;
@@ -236,15 +236,16 @@ html {
         align-items: center;
     }
     .bold {
-        top: -30%;
+        top: -35%;
         transform: translateX(-580px);
         position: relative;
+       
     }
     .edit,
     .edit2 {
         align-items: center;
         text-align: center;
-       transform: translateX(-70px);
+       transform: translateX(-60px);
     }
     input {
         width: 300px;
@@ -253,6 +254,7 @@ html {
     }
     .footer-container{
         height: 60vh;
+        margin-top: 50px;
     }
     .footer-text {
         display:grid;
@@ -265,6 +267,12 @@ html {
 }
 
 @media (max-width:330px) {
+    .edit,
+    .edit2 {
+        align-items: center;
+        text-align: center;
+       transform: translateX(-80px);
+    }
     form {
         width: 300px;
         margin: 200px;
@@ -286,7 +294,7 @@ html {
     }
     .footer-text {
         display:grid;
-        grid-template-columns: repeat(5,5fr);
+        grid-template-columns: repeat(3,3fr);
     }
     footer .footer{
         display:grid;
