@@ -203,6 +203,7 @@ html {
         top: -30%;
         transform: translateX(-580px);
         position: relative;
+        display: flex;
     }
     .edit,
     .edit2 {
@@ -302,6 +303,7 @@ html {
     }
     .bold {
        font-size: 15px;
+       display: flex;
     }
     b{
         font-size: 10px;
@@ -347,6 +349,7 @@ html {
         position: relative;
        font-size: 10px;
        padding: 37px;
+       display: flex;
     }
 }
 @media (max-width:250px) {
@@ -388,5 +391,6 @@ html {
         transform: translateX(-580px);
         position: relative;
        font-size: 10px;
+       display: flex;
     }
 }
