@@ -240,10 +240,10 @@ html {
         top: -35%;
         transform: translateX(-380px);
         font-size: 25px;
-        padding:0px 4px;
     }
     b{
         font-size:  4px;
+        position: relative;
     }
     .edit,
     .edit2 {
